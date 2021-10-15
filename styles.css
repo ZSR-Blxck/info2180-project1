@@ -1,0 +1,54 @@
+/* Add your CSS to this file */
+body {
+    margin: 0;
+    font-size: 16px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+}
+h1{
+    float: left;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.container{
+    margin-top: 20px;
+    display:grid;
+    grid-template-columns: auto auto;
+}
+
+.overview-hero-image{
+    text-align: left;
+    position: relative;
+    padding-left: 200px;
+    margin: 50px;
+}
+.overview-hero-text{
+    float: right;
+    padding-right: 150px;
+}
+img{
+    width: 120px;
+    height: 90px;
+}
+.learn-about{
+    display:grid;
+    grid-template-columns: auto auto auto;  
+}
