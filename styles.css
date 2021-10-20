@@ -39,7 +39,7 @@ color: #6b7280;
 li a:hover{
     color: #5A67D8;
 }
-.container{
+.overview-hero .container{
     margin-top: 20px;
     display:grid;
     grid-template-columns: auto auto;
@@ -55,11 +55,10 @@ li a:hover{
 }
 .overview-hero-text{
     float: right;
-    padding-right: 150px;
 }
 img{
     width: 120px;
-    height: 90px;
+    height:120px;
 }
 .learn-about{
     margin-left: 350px;
@@ -88,12 +87,16 @@ img{
     box-shadow: lightgray;
 }
 .testing{
-    margin: 200px;
+    margin: 100px;
+}
+.testing a{
+    /*float: right;*/
 }
 .testing-desciption{
     margin-left: 180px;
     margin-right: 80px;
     position: relative;
+    float: left;
 }
 .cta{
     margin-top: 50px;
@@ -109,20 +112,26 @@ img{
   display: inline-block;
   font-size: 16px;
 }
-.stories{
-    padding-left: 500px;
-    padding-right: 200px;
-    display:grid;
-    grid-template-columns: auto ;
+.stories a {
+    color: #5A67D8;
 }
-.stories h2 a {
+.stories h2{
     color: #5A67D8;
 }
 .stories h3{
     font-size: 19px;
+    margin-right: 180px;
 }
-stories img{
-    border-radius: 5px;
+.stories img{
+    padding: 10px;
+    border-radius: 60px;
+}
+.stories{
+    padding-top: -100px;
+    padding-left: 120px;
+    padding-right: 120px;
+    display:grid;
+    grid-template-columns: auto ;
 }
 .testing{
     background-color: #4A5568;
@@ -142,9 +151,21 @@ article{
 .newsletter{
     background-color: #48BB78;
     color: white;
+    text-align: center;
+    position: relative;
+    padding-left: 400px;
+    padding: 50px;
 }
-.newsletter btn{
+.newsletter h3{
+    
+}
+/*form{
+    justify-content: center;
+}*/
+.newsletter .btn {
     background-color: #5A67D8;
+    text-align: center;
+    float: right;
 }
 footer{
     background-color: #4A5568;
