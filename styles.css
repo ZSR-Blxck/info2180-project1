@@ -6,9 +6,12 @@ body {
 BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 
 }
-header{
+header .container{
     background-color: white;
     font-size: 18px;
+    display: grid;
+    grid: "1 2";
+    align-items: center;
 }
 
 .container {
@@ -42,29 +45,36 @@ li a:hover{
     margin-top: 20px;
     display:grid;
     grid-template-columns: auto auto;
+   align-items: center;
 }
 .overview-hero{
     background-color: #E2E8F0;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
 }
 .overview-hero-image{
     text-align: left;
     position: relative;
-    padding-left: 200px;
+    padding-left: 10%;
     margin: 50px;
 }
 .overview-hero-text{
     float: right;
+    padding-right: 30%;
 }
 img{
-    width: 120px;
-    height:120px;
+    width: 240px;
+    height:240px;
 }
 .learn-about{
-    margin-left: 350px;
+    padding-left: 15%;
+    align-items: center;
 }
 .learn-about h2{
     font-size: 24px;
     color: #48BB78;
+    justify-items: left;
 }
 .learn-about h3{
     color: #48BB78;
@@ -72,33 +82,41 @@ img{
 }
 
 .cards{
-    margin-left: -140px;
-    margin-right: 250px;
+    margin-left: -10%;
+    margin-right: 10%;
     position: relative;
     margin-top: 70px;
     display:grid;
-    grid-template-columns: 33% 33% 33%; 
+    grid-template-columns: 30% 30% 30%; 
     /*width: 700px;*/
 }
 .card{
+    border-style: 2px solid;
     border-color: #E2E8F0;
     border-radius: 5px;
-    box-shadow: lightgray;
+    box-shadow: 5px 10px lightgray;
+    padding: 30px;
+    margin: 20px;
 }
 .testing{
+    width: 85%;
     margin: 100px;
+    padding: 100px;
+    align-items: center;
 }
-.testing a{
-    /*float: right;*/
+.testing .container{
+    display: grid;
+    grid-template-columns: 70% 30%;
 }
+
 .testing-desciption{
-    margin-left: 180px;
-    margin-right: 80px;
+    margin-right: 200px;
     position: relative;
     float: left;
 }
 .cta{
     margin-top: 50px;
+    float: right;
 }
 .btn {
   background-color: #48BB78; 
@@ -110,9 +128,12 @@ img{
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  align-items: center;
 }
 .stories a {
     color: #5A67D8;
+    text-decoration: none;
+
 }
 .stories h2{
     color: #5A67D8;
@@ -123,14 +144,16 @@ img{
 }
 .stories img{
     padding: 10px;
-    border-radius: 60px;
+    border-radius: 120px;
 }
 .stories{
-    padding-top: -100px;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding: 1%;
+    padding-top: -1%;
+    padding-left: 10%;
     display:grid;
-    grid-template-columns: auto ;
+    grid-template-columns: 80%;
+    align-items: center;
+    text-align: left;
 }
 .testing{
     background-color: #4A5568;
@@ -151,22 +174,34 @@ article{
     background-color: #48BB78;
     color: white;
     text-align: center;
-    position: relative;
-    padding-left: 400px;
+    padding-left: 10%;
     padding: 50px;
 }
-.newsletter h3{
-    
+.newsletter p{
+    padding-left: 35%;
+    padding-right: 35%;
+    text-align: left;
 }
-/*form{
-    justify-content: center;
-}*/
+input{
+    width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
 .newsletter .btn {
     background-color: #5A67D8;
     text-align: center;
-    float: right;
+}
+.form-group{
+    display: inline;
 }
 footer{
     background-color: #4A5568;
     color: white;
+    padding: 20px;
+
 }
